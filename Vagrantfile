@@ -1,7 +1,7 @@
 Vagrant::Config.run do |config|
     # This vagrant will be running on centos 6.2, 64bit with puppet provisioning
     config.vm.box = 'centos-62-64-puppet'
-    config.vm.box_url = 'http://packages.vstone.eu/vagrant-boxes/centos/6.2/centos-6.2-64bit-puppet-vbox.4.1.12.box'
+    config.vm.box_url = 'http://packages.vstone.eu/vagrant-boxes/centos/6.x/centos-6.x-64bit-puppet.3.x-vbox.4.3.14-1.box'
 
     # Use :gui for showing a display for easy debugging of vagrant
     config.vm.boot_mode = :gui
